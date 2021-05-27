@@ -2,7 +2,7 @@ package menuprojeto;
 
 import java.util.Arrays;
 
-class Menu{
+class Menu2{
     public void menuFila(){
         System.out.println("--------------------------");
         System.out.println("        MENU FILA         ");
@@ -22,7 +22,7 @@ public class Fila {
     public Fila(int numero) {
         vetor = new String[numero];
         Arrays.fill(vetor, "");
-        Menu menu = new Menu();
+        Menu2 menu = new Menu2();
         menu.menuFila();
     }
 

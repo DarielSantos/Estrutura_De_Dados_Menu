@@ -1,7 +1,7 @@
 package menuprojeto;
 
 import java.util.Arrays;
-class Menu{
+class Menu1{
      public void menuPilha(){
         System.out.println("--------------------------");
         System.out.println("        MENU PILHA         ");
@@ -18,7 +18,7 @@ public class Pilha {
     String vetor[];
     
     public Pilha(int numero){
-        Menu menu = new Menu();
+        Menu1 menu = new Menu1();
         vetor = new String[numero];
         Arrays.fill(vetor, "");
         menu.menuPilha();
